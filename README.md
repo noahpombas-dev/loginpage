@@ -83,4 +83,4 @@ This project is open source and free to use! Feel free to fork it, modify it, an
 
 ---
 
-made with ❤️ by Noah
+Made with ❤️ by Noah
