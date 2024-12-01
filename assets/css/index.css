@@ -1,0 +1,93 @@
+/* Existing CSS styles */
+body {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-container, .signup-container {
+    background-color: #1f1f1f !important; 
+    padding: 2rem;
+    border-radius: 0.5rem; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    max-width: 400px; 
+    width: 100%; 
+    margin: auto; 
+    color: #fff; 
+    overflow: hidden; /* Ensure content doesn't overflow during transition */
+    transition: max-height 0.75s ease, opacity 0.75s ease;
+    opacity: 0;
+    display: none; /* Hide by default */
+}
+
+.login-container.active, .signup-container.active {
+    display: block; /* Show active container */
+    opacity: 1; /* Ensure opacity is fully visible */
+}
+
+.login-container {
+    z-index: 2;
+}
+
+.signup-container {
+    z-index: 1;
+}
+
+.form-label {
+    color: #e0e0e0 !important;
+}
+
+.form-control {
+    background-color: #333 !important; 
+    color: #e0e0e0 !important; 
+    border: 1px solid #444 !important; 
+    border-radius: 0.25rem;
+}
+
+.form-control::placeholder {
+    color: #bbb !important; 
+}
+
+.form-control:focus {
+    border-color: #007bff !important; 
+    background-color: #333 !important; 
+    color: #e0e0e0 !important;
+    box-shadow: 0 0 0.25rem rgba(0, 123, 255, 0.5); 
+}
+
+.btn-primary {
+    background-color: #007bff !important;
+    border-color: #007bff !important; 
+    color: #fff !important; 
+    border-radius: 0.25rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3 !important; 
+    border-color: #004080 !important; 
+}
+
+.text-danger {
+    font-size: 0.875rem; 
+}
+
+/* Initial max-height and opacity states for transition */
+.container > .inactive {
+    max-height: 0;
+    opacity: 0;
+}
+
+.container > .active {
+    max-height: 1000px; /* Set to a height large enough to accommodate the content */
+}
