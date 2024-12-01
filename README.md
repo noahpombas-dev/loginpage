@@ -15,7 +15,7 @@ A modern, visually appealing **Login Page** with a **dark theme**, **smooth tran
 1. **Clone or Download** the repository to your local machine.
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/noahpombas-dev/loginpage.git
    ```
 
 2. Open the `index.html` file in your browser to see the login page in action.
@@ -25,7 +25,7 @@ A modern, visually appealing **Login Page** with a **dark theme**, **smooth tran
 ## 🧑‍💻 File Structure
 
 ```
-/LoginPage
+/login
   ├── assets/
   │    ├── css/
   │    │    └── index.css         # Custom styles for the page
@@ -64,7 +64,7 @@ This login page is designed to be easy to modify! Here’s how you can make it y
 
 ## 💬 Live Demo
 
-You can see the page in action! [Click here for the live demo](#) *(if hosted online)*.
+You can see the page in action! [Click here for the live demo](https://login.noahpombas.ch) *(if hosted online)*.
 
 ---
 
@@ -81,12 +81,5 @@ This project relies on a few core dependencies:
 
 This project is open source and free to use! Feel free to fork it, modify it, and contribute.
 
----
 
-## 👨‍💻 Contributors
-
-- [Your Name](https://github.com/yourusername) – Creator and Maintainer
-
----
-
-Enjoy using the Login Page, and feel free to reach out with any questions or suggestions! 😊
+made with ❤️ by Noah
