@@ -64,7 +64,7 @@ This login page is designed to be easy to modify! Here’s how you can make it y
 
 ## 💬 Live Demo
 
-You can see the page in action! [Click here for the live demo](https://login.noahpombas.ch) *(if hosted online)*.
+You can see the page in action! [Click here for the live demo](https://login.noahpombas.ch)
 
 ---
 
