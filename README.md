@@ -81,5 +81,6 @@ This project relies on a few core dependencies:
 
 This project is open source and free to use! Feel free to fork it, modify it, and contribute.
 
+---
 
 made with ❤️ by Noah
